@@ -1,4 +1,5 @@
-let userName = prompt('Your Name')
+//let userName = prompt('Your Name')
+let userName = 'Your Name'
 userName ? console.log(`Hello, ${userName}`) : console.log('Hello')
 
 let userQuestion = "What is the meaning of life"
