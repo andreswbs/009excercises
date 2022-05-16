@@ -1,0 +1,10 @@
+
+.nice_background {
+    background-image: url('../pictures/neowise___4k_by_abdelrahman_de1lvum.jpg');
+    width: 70%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+
