@@ -60,6 +60,24 @@ function greetAllMyFriends() {
     myFriends.forEach((name) => console.log("Hi " + name))
 }
 
+const task1 = {
+    description: "Take a shower",
+    done: true,
+    importance: 7,
+    action: () => {console.log("Hills are alive with a sound of music")}
+}
+
+const task2 = {
+    description: "Walk the dog",
+    done: false,
+    importance: 9,
+    action: () => {console.log("Here's the good spot!")}
+}
+
+const tasks = [task1, task2]
+
+tasks.forEach((task) => task.action())
+
 
 
 
