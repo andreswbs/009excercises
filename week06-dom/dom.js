@@ -43,7 +43,8 @@ function enableStarring() {
 
 function addFruit() {
     console.log('addFruit function called')
-    const inputElement = document.getElementById('fruitInput')
+    //const inputElement = document.getElementById('fruitInput')
+    const inputElement = document.querySelector('#fruitInput')
     const newFruit = inputElement.value
     const fruitsList = document.getElementById('fruits')
     fruitsList.innerHTML += '<li>' + newFruit + '</li>'

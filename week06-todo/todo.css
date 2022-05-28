@@ -1,0 +1,21 @@
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    background-color: antiquewhite;
+}
+
+#input {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#message {
+    display: none;
+    color: red;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: aliceblue;
+}
+
