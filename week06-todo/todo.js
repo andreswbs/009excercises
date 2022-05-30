@@ -6,16 +6,14 @@ const task1 = {
 
 const task2 = {
     description: "walk the dog",
-    isCompleted: true,
+    isCompleted: false,
     priority: 8
 }
 
 const task3 = {
     description: "make breakfast",
     isCompleted: true,
-    priority: 8,
-    day: Monday,
-    date: "20220528"
+    priority: 8
 }
 
 const tasksArray = [task1, task2, task3]
@@ -55,9 +53,7 @@ function renderTasks() {
 }
 
 function rowClicked(rowIndex) {
-    console.log("Row clicked: " + rowIndex)
     const taskObj = tasksArray[rowIndex]
-    console.log(taskObj)
     taskObj.isCompleted = !taskObj.isCompleted
     renderTasks()
 }
@@ -83,5 +79,7 @@ function addTask() {
     document.getElementById("message").style.display = "none"
     renderTasks()
 }
+
+
 
 renderTasks()
